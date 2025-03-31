@@ -1,0 +1,144 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e1e2e;
+    color: #fff;
+    text-align: center;
+    
+}
+header {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    color: #fff;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.menu {
+    background: #333;
+    padding: 15px;
+    text-align: center;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #ff8a00;
+    transition: 0.3s;
+}
+.menu ul li a:hover {
+    background: #e52e71;
+}
+.menu ul li a.active {
+    background: #e52e71;
+    color: #fff;
+}
+
+/* Skills Hover Effect */
+.skills span {
+    transition: transform 0.3s ease-in-out;
+}
+.skills span:hover {
+    transform: scale(1.1);
+}
+#progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background: #ff8a00;
+    z-index: 9999;
+}
+
+.profile-pic {
+    transition: transform 0.3s ease-in-out;
+}
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+.section {
+    background: #2a2a3c;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    border: 5px solid #ff8a00;
+}
+#contact a img {
+width: 40px;
+height: 40px;
+margin: 10px;
+border-radius: 50%;
+transition: transform 0.3s;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+a {
+    color: #ff8a00;
+    text-decoration: none;
+}
+.about-text {
+    font-size: 22px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.skills span {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+.skills .java { background: #ff5733; }
+.skills .python { background: #4CAF50; }
+.skills .c { background: #007BFF; }
+.skills .cpp { background: #6f42c1; }
+.skills .dsa { background: #ffcc00; }
+.skills .html { background: #e34c26; }
+.skills .css { background: #264de4; }
+.skills .js { background: #f7df1e; color: #000; }
+.skills .node { background: #68a063; }
+.skills .express { background: #444; }
+.skills .mongodb { background: #4DB33D; }
+.skills .sql { background: #336791; }
+.skills .restapi { background: #ff4081; }
